@@ -1,0 +1,43 @@
+{
+  "name": "animation-event",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "value-event handlers for CSS animation events",
+  "license": "MIT",
+  "repository": "bendrucker/animation-event",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "virtual-dom",
+    "virtual",
+    "dom",
+    "event",
+    "css",
+    "animation",
+    "animationstart",
+    "animationiteration",
+    "animationend"
+  ],
+  "devDependencies": {
+    "dispatch-event": "~1.0.0",
+    "standard": "^7.0.0",
+    "tape": "^4.0.0",
+    "thermometer": "~1.4.0",
+    "virtual-dom": "~2.1.1"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "dependencies": {
+    "dom-delegator": "^13.0.0",
+    "value-event": "~5.1.1",
+    "xtend": "^4.0.0"
+  }
+}
