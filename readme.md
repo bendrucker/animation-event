@@ -39,7 +39,7 @@ The handler to call when the element receives the specified animation event.
 Type: `object`  
 Default: `{}`
 
-Data to pass to the handler when the element is scrolled. This will be extended with:
+Data to pass to the handler. This will be extended with:
 
 ###### name
 
