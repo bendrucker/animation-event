@@ -33,9 +33,13 @@
   },
   "files": [
     "index.js",
-    "test.js"
+    "test.js",
+    "polyfill.js",
+    "events.json"
   ],
   "dependencies": {
+    "ap": "~0.2.0",
+    "cast-array": "~1.0.1",
     "dom-delegator": "^13.0.0",
     "value-event": "~5.1.1",
     "xtend": "^4.0.0"

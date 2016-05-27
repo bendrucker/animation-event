@@ -3,8 +3,7 @@
 var BaseEvent = require('value-event/base-event')
 var Delegator = require('dom-delegator')
 var extend = require('xtend')
-
-var events = ['start', 'iteration', 'end']
+var events = require('./events.json')
 
 var delegator = Delegator()
 
