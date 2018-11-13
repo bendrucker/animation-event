@@ -1,4 +1,4 @@
-# animation-event [![Build Status](https://travis-ci.org/bendrucker/animation-event.svg?branch=master)](https://travis-ci.org/bendrucker/animation-event)
+# animation-event [![Build Status](https://travis-ci.org/bendrucker/animation-event.svg?branch=master)](https://travis-ci.org/bendrucker/animation-event) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/animation-event.svg)](https://greenkeeper.io/)
 
 > value-event handlers for CSS animation events
 
