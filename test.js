@@ -11,7 +11,7 @@ test('events', function (t) {
   t.plan(1)
 
   var render = thermometer.createComponent(Component)
-  render({onEnd: onEnd}, function (state, element, done) {
+  render({ onEnd: onEnd }, function (state, element, done) {
     dispatchEvent(element, 'animationend', {
       animationName: 'shake',
       elapsedTime: 1
@@ -34,7 +34,7 @@ test('polyfill', function (t) {
   polyfill('webkit')
 
   var render = thermometer.createComponent(Component)
-  render({onEnd: onEnd}, function (state, element, done) {
+  render({ onEnd: onEnd }, function (state, element, done) {
     dispatchEvent(element, 'webkitAnimationEnd', {
       animationName: 'shake',
       elapsedTime: 1
